@@ -3,5 +3,7 @@
 /* Narrow-screen readability without changing desktop composition. */
 main,section,article,aside,.detail-grid>*,.consult>*,.intro>*,.about-grid>*{min-width:0}
 h1,h2,h3,p,li,a{overflow-wrap:break-word}
+.about-portrait{margin:0;align-self:start;background:var(--ink);color:#fff}.about-portrait img{display:block;width:100%;height:auto}.about-portrait figcaption{padding:22px 25px;font:12px/1.8 -apple-system,sans-serif;letter-spacing:2px;text-align:center}
 @media(max-width:850px){nav a{padding:12px 0;min-height:44px;display:inline-flex;align-items:center}nav{flex-wrap:wrap}.button{max-width:100%;white-space:normal}}
-@media(max-width:520px){.hero h1{font-size:clamp(34px,8.7vw,44px);line-height:1.13;letter-spacing:-1px}.hero h1 em{overflow-wrap:anywhere}h1{font-size:clamp(34px,10vw,42px)}.service-heading h1{font-size:clamp(34px,10vw,42px)}.bundle-grid article{grid-template-columns:minmax(0,1fr) auto;gap:8px}.bundle-grid h3{overflow-wrap:anywhere}.brand{font-size:24px}.eyebrow{overflow-wrap:anywhere}.contact .textlink{font-size:13px}aside{padding:24px}}
+@media(max-width:850px){.about-portrait{max-width:600px}}
+@media(max-width:520px){.hero h1{font-size:clamp(34px,8.7vw,44px);line-height:1.13;letter-spacing:-1px}.hero h1 em{overflow-wrap:anywhere}h1{font-size:clamp(34px,10vw,42px)}.service-heading h1{font-size:clamp(34px,10vw,42px)}.bundle-grid article{grid-template-columns:minmax(0,1fr) auto;gap:8px}.bundle-grid h3{overflow-wrap:anywhere}.brand{font-size:24px}.eyebrow{overflow-wrap:anywhere}.contact .textlink{font-size:13px}aside{padding:24px}.about-portrait figcaption{padding:18px 20px}}
