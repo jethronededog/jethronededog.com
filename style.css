@@ -12,4 +12,8 @@ h1,h2,h3,p,li,a{overflow-wrap:break-word}
 .contact-procurement h2{font-size:32px}
 dialog .actions{margin-top:25px}
 .service-heading aside .button+.button{margin-top:12px}
-@media(max-width:520px){.contact-procurement{padding:25px}}
+.about-portrait{margin:0;align-self:start;background:var(--ink);color:#fff;max-width:480px}
+.about-portrait img{display:block;width:100%;height:auto}
+.about-portrait figcaption{padding:22px 25px;font:12px/1.8 -apple-system,sans-serif;letter-spacing:2px;text-align:center}
+@media(max-width:850px){.about-portrait{max-width:600px}}
+@media(max-width:520px){.contact-procurement{padding:25px}.about-portrait figcaption{padding:18px 20px}}
