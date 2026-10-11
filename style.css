@@ -11,4 +11,5 @@ h1,h2,h3,p,li,a{overflow-wrap:break-word}
 .contact-procurement{background:var(--wash);border:1px solid var(--line);margin-top:55px;padding:35px;max-width:850px}
 .contact-procurement h2{font-size:32px}
 dialog .actions{margin-top:25px}
+.service-heading aside .button+.button{margin-top:12px}
 @media(max-width:520px){.contact-procurement{padding:25px}}
